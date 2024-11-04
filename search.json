@@ -1,0 +1,283 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "index.html#title-2-header",
+    "href": "index.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html",
+    "href": "Templates/ds250_project_template_clean.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#elevator-pitch",
+    "href": "Templates/ds250_project_template_clean.html#elevator-pitch",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "paste your elevator pitch here A SHORT (4-5 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\ndf = pd.read_csv(\"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\")\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#questiontask-1",
+    "href": "Templates/ds250_project_template_clean.html#questiontask-1",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "QUESTION|TASK 1",
+    "text": "QUESTION|TASK 1\nCOPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n(\n  ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('year')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"year\", \"AK\",\"AR\"])\n)\ndisplay(mydat)\n\n\n\n\n\n\nNot much of a table {#cell-Q1-table}\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#questiontask-2",
+    "href": "Templates/ds250_project_template_clean.html#questiontask-2",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "QUESTION|TASK 2",
+    "text": "QUESTION|TASK 2\nCOPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n# (\n#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n# )\n\n\n\n\ntable example\n# Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#questiontask-3",
+    "href": "Templates/ds250_project_template_clean.html#questiontask-3",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "QUESTION|TASK 3",
+    "text": "QUESTION|TASK 3\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n# Include and execute your code here\n# (\n#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n# )\n\n\n\n\ntable example\n# Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#questiontask-4",
+    "href": "Templates/ds250_project_template_clean.html#questiontask-4",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "QUESTION|TASK 4",
+    "text": "QUESTION|TASK 4\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n# Include and execute your code here\n# (\n#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n# )\n\n\n\n\ntable example\n# Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)"
+  },
+  {
+    "objectID": "Templates/ds250_project_template_clean.html#questiontask-5",
+    "href": "Templates/ds250_project_template_clean.html#questiontask-5",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "QUESTION|TASK 5",
+    "text": "QUESTION|TASK 5\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n# Include and execute your code here\n# (\n#   ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n# )\n\n\n\n\ntable example\n# Include and execute your code here\n# mydat = df.head(1000)\\\n#     .groupby('year')\\\n#     .sum()\\\n#     .reset_index()\\\n#     .tail(10)\\\n#     .filter([\"year\", \"AK\",\"AR\"])\n\n# display(mydat)"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html",
+    "href": "Templates/DS250_Template.html",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "",
+    "text": "THIS .qmd IS INSTRUCTIONAL AND SHOULD NOT BE USED TO WRITE YOUR REPORTS (EXCEPTION - PROJECT 0). THERE IS ANOTHER TEMPLATE FILE FOR THAT. YOU WILL NEED TO PREVIEW THE REPORT TO PRODUCE A .html FILE. YOU WILL SUBMIT THE .html FILE ON CANVAS."
+  },
+  {
+    "objectID": "Templates/DS250_Template.html#elevator-pitch",
+    "href": "Templates/DS250_Template.html#elevator-pitch",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nA SHORT (2-3 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS. (Note: this is not a summary of the project, but a summary of the results.)\nA Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\n# Note: using the URL is the easiest way for the data to still work in GitHub\n# You may download the file and reference it by name but only if you save it in the same folder as your .qmd file\nurl = 'https://raw.githubusercontent.com/byuidatascience/data4python4ds/master/data-raw/mpg/mpg.csv'\ndf = pd.read_csv(url)\n\n\nHighlight the Questions and Tasks"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html#questiontask-1",
+    "href": "Templates/DS250_Template.html#questiontask-1",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Question|Task 1",
+    "text": "Question|Task 1\nCOPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE\nAdd details here to answer the question but NOT like an assignment Q&A. You need to write your answers as a consulting solution report. A Client needs to understand the answer, but also needs to understand the decisions that went into the answer (when applicable).\ninclude figures in chunks and discuss your findings in the figure.\n\nYOU SHOULD HAVE QUALITY WRITING THAT DESCRIBES YOUR CHARTS AND TABLES.\nWE HIGHLY RECOMMEND GRAMMARLY TO FIX YOUR SPELLING AND GRAMMAR. WRITING TAKES TIME TO BE CLEAR. SPEND THE TIME TO PRACITCE.\nYOU SHOULD HAVE QUALITY COMMENTS THAT DESCRIBES YOUR CODES. OFTEN CODEERS WORK IN TEAMS AND YOU NEED TO HAVE QUALTIY COMMENTS FOR YOUR TEAM AND YOURSELF. YOU MAY NEED TO REVISIT CODE YOU WROTE OVER A YEAR AGO, AND IF YOU DONT COMMENT IT NOW YOU WONT REMEMBER WHY YOU DID WHAT YOU DID.\n\n\n\nRead and format data\n# Include and execute your code here"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html#questiontask-2",
+    "href": "Templates/DS250_Template.html#questiontask-2",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Question|Task 2",
+    "text": "Question|Task 2\nCOPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\n\nplot example\n# Include and execute your code here\n\n(\n  ggplot(df.head(500), aes(x='displ', y='hwy')) + geom_point()\n)\n\n\n\n  \n  \n    \n    \n    \n      \n        \n          \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n          \n        \n        \n          \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n            \n          \n        \n      \n      \n        \n          \n            \n              \n                \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                  \n                \n              \n            \n          \n        \n        \n          \n            \n            \n          \n        \n      \n      \n        \n          \n            \n            \n            \n              \n                2\n              \n            \n          \n          \n            \n            \n            \n              \n                3\n              \n            \n          \n          \n            \n            \n            \n              \n                4\n              \n            \n          \n          \n            \n            \n            \n              \n                5\n              \n            \n          \n          \n            \n            \n            \n              \n                6\n              \n            \n          \n          \n            \n            \n            \n              \n                7\n              \n            \n          \n          \n          \n        \n        \n          \n            \n              \n                15\n              \n            \n          \n          \n            \n              \n                20\n              \n            \n          \n          \n            \n              \n                25\n              \n            \n          \n          \n            \n              \n                30\n              \n            \n          \n          \n            \n              \n                35\n              \n            \n          \n          \n            \n              \n                40\n              \n            \n          \n          \n            \n              \n                45\n              \n            \n          \n        \n      \n    \n    \n      \n        hwy\n      \n    \n    \n      \n        displ\n      \n    \n    \n    \n  \n  \n  \n\nMy useless chart"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html#questiontask-3",
+    "href": "Templates/DS250_Template.html#questiontask-3",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Question|Task 3",
+    "text": "Question|Task 3\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('manufacturer')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"manufacturer\",\"displ\",\"cty\", \"hwy\"])\n)\n\ndisplay(mydat)\n\n\n\n\n\n\ntable example {#cell-Q1-table}\n\n\n\nmanufacturer\ndispl\ncty\nhwy\n\n\n\n\n5\nhyundai\n34.0\n261\n376\n\n\n6\njeep\n36.6\n108\n141\n\n\n7\nland rover\n17.2\n46\n66\n\n\n8\nlincoln\n16.2\n34\n51\n\n\n9\nmercury\n17.6\n53\n72\n\n\n10\nnissan\n42.5\n235\n320\n\n\n11\npontiac\n19.8\n85\n132\n\n\n12\nsubaru\n34.4\n270\n358\n\n\n13\ntoyota\n100.4\n630\n847\n\n\n14\nvolkswagen\n60.9\n565\n789"
+  },
+  {
+    "objectID": "Templates/DS250_Template.html#questiontask-4",
+    "href": "Templates/DS250_Template.html#questiontask-4",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Question|Task 4",
+    "text": "Question|Task 4\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\n\n\nNote: Non executing Python Snippets include (3) ``` followed by (3) more ```, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the ``` marks.\nNote: These also work in Slack and it is expected they are used for any code shared in that app. No screen shots allowed."
+  },
+  {
+    "objectID": "250_Projects/project1.html",
+    "href": "250_Projects/project1.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project4.html",
+    "href": "250_Projects/project4.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 4"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project6.html",
+    "href": "250_Projects/project6.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Here is a link to my GitHub portfolio: GitHub Portfolio\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 6"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project0.html",
+    "href": "250_Projects/project0.html",
+    "title": "Client Report - Introduction",
+    "section": "",
+    "text": "THIS .qmd IS INSTRUCTIONAL AND SHOULD NOT BE USED TO WRITE YOUR REPORTS (EXCEPTION - PROJECT 0). THERE IS ANOTHER TEMPLATE FILE FOR THAT. YOU WILL NEED TO PREVIEW THE REPORT TO PRODUCE A .html FILE. YOU WILL SUBMIT THE .html FILE ON CANVAS.",
+    "crumbs": [
+      "Project 0"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project0.html#elevator-pitch",
+    "href": "250_Projects/project0.html#elevator-pitch",
+    "title": "Client Report - Introduction",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nA SHORT (2-3 SENTENCES) PARAGRAPH THAT DESCRIBES KEY INSIGHTS TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS. (Note: this is not a summary of the project, but a summary of the results.)\nA Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\n# Include and execute your code here\npenguins = load_penguins()",
+    "crumbs": [
+      "Project 0"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project0.html#questiontask-1",
+    "href": "250_Projects/project0.html#questiontask-1",
+    "title": "Client Report - Introduction",
+    "section": "Question|Task 1",
+    "text": "Question|Task 1\nCOPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\n\nplot example\n# Include and execute your code here\n\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point()\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\nplot example\n# Include and execute your code here\n\n(\n    ggplot(\n        data=penguins,\n        mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\", color=\"species\"),\n    )\n    + geom_point()\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\nplot example\n# Include and execute your code here\n(\n    ggplot(\n        data=penguins,\n        mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\", color=\"species\"),\n    )\n    + geom_point()\n    + geom_smooth(method=\"lm\")\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\nplot example\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point(mapping=aes(color=\"species\"))\n    + geom_smooth(method=\"lm\")\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\nplot example\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point(mapping=aes(color=\"species\", shape=\"species\"))\n    + geom_smooth(method=\"lm\")\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\nplot example\n# Include and execute your code here\n(\n    ggplot(data=penguins, mapping=aes(x=\"flipper_length_mm\", y=\"body_mass_g\"))\n    + geom_point(aes(color=\"species\", shape=\"species\"))\n    + geom_smooth(method=\"lm\")\n    + labs(\n        title=\"Body mass and flipper length\",\n        subtitle=\"Dimensions for Adelie, Chinstrap, and Gentoo Penguins\",\n        x=\"Flipper length (mm)\",\n        y=\"Body mass (g)\",\n        color=\"Species\",\n        shape=\"Species\",\n    )\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart",
+    "crumbs": [
+      "Project 0"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project0.html#questiontask-2",
+    "href": "250_Projects/project0.html#questiontask-2",
+    "title": "Client Report - Introduction",
+    "section": "Question|Task 2",
+    "text": "Question|Task 2\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\npenguins.head()\n\n\n\n\n\n\ntable example {#cell-Q1-table1}\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n\n\n\n\n\n\n\ntable example\n# Include and execute your code here\nmypenguins = (penguins.head(1000)\n    .groupby('species')\n    .mean(numeric_only=True)\n    .reset_index()\n    .filter([\"species\", \"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\"])\n)\n\ndisplay(mypenguins)\n\n\n\n\n\n\ntable example {#cell-Q1-table2}\n\n\n\nspecies\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\n\n\n\n\n0\nAdelie\n38.791391\n18.346358\n189.953642\n3700.662252\n\n\n1\nChinstrap\n48.833824\n18.420588\n195.823529\n3733.088235\n\n\n2\nGentoo\n47.504878\n14.982114\n217.186992\n5076.016260\n\n\n\n\n\n\n\nNote: Non executing Python Snippets include (3) ``` followed by (3) more ```, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the ``` marks.\nNote: These also work in Slack and it is expected they are used for any code shared in that app. No screen shots allowed.",
+    "crumbs": [
+      "Project 0"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project5.html",
+    "href": "250_Projects/project5.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 5"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project3.html",
+    "href": "250_Projects/project3.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 3"
+    ]
+  },
+  {
+    "objectID": "250_Projects/project2.html",
+    "href": "250_Projects/project2.html",
+    "title": "Chaz Clark - Data Science Portfolio",
+    "section": "",
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Project 2"
+    ]
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+  },
+  {
+    "objectID": "resume.html#currently",
+    "href": "resume.html#currently",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+  },
+  {
+    "objectID": "resume.html#awards",
+    "href": "resume.html#awards",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
+  },
+  {
+    "objectID": "resume.html#publications",
+    "href": "resume.html#publications",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
+  },
+  {
+    "objectID": "resume.html#occupation",
+    "href": "resume.html#occupation",
+    "title": "Isaac Newtons’s CV",
+    "section": "",
+    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+  },
+  {
+    "objectID": "Templates/ds250_coding_challenge_template.html",
+    "href": "Templates/ds250_coding_challenge_template.html",
+    "title": "Coding Challenge",
+    "section": "",
+    "text": "Show the code\n# Read in libraries\nimport pandas as pd\nimport numpy as np\nfrom lets_plot import *\n\nLetsPlot.setup_html(isolated_frame=True)\nShow the code\n# Read in the names data\nurl = \"https://github.com/byuidatascience/data4names/raw/master/data-raw/names_year/names_year.csv\"\nnames = pd.read_csv(url)"
+  },
+  {
+    "objectID": "Templates/ds250_coding_challenge_template.html#question",
+    "href": "Templates/ds250_coding_challenge_template.html#question",
+    "title": "Coding Challenge",
+    "section": "Question #:",
+    "text": "Question #:\n\n[Replace with the text from question #]\n\n\nShow the code\n# Question # Code\n\n\nWhen done with a question, render it to a .html file and upload it for the question. Either re-downolad this template or file -&gt; save as -&gt; a new file name and then replace the text in the question with the new question text."
+  },
+  {
+    "objectID": "250_projects.html",
+    "href": "250_projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "250_projects.html#repo-for-all-my-projects",
+    "href": "250_projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  }
+]
