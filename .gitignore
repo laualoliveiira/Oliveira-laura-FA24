@@ -1,0 +1,12 @@
+/.quarto/
+/_site/
+/350_Projects/
+350_Projects.qmd
+/450_Projects/
+450_projects.qmd
+/460_Projects/
+460_projects.qmd
+/Templates/DS350_Template.qmd
+*.html
+/site_libs
+/docs

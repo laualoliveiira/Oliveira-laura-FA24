@@ -1,0 +1,72 @@
+project: 
+  type: website
+
+website:
+  title: "Chaz Clark - Data Science Portfolio"
+  favicon: Images/favicon.png
+  back-to-top-navigation: true
+  site-url: https://byuidatascience.github.io/course_work_portfolio/
+  repo-url: https://github.com/byuidatascience/course_work_portfolio
+  issue-url: https://github.com/byuidatascience/course_work_portfolio/issues/new
+  repo-actions: [issue]
+
+  page-footer: 
+    border: true
+    left: "Your_Name 2024©"
+    right: 
+      - icon: linkedin
+        href: Your_LinkedIn_URL
+
+  navbar:
+    background: primary
+    search: true   
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "My Resume"
+        file: resume.qmd
+      - text: "DS250 Projects"
+        file: 250_projects.qmds
+
+  sidebar:
+    - title: "DS 250 Projects"
+      style: "docked"
+      background: light
+      contents:
+        - text: "DS250 Projects"
+          file: 250_projects.qmd
+        - text: "---"
+        - text: "Project 0"
+          file: 250_Projects/project0.qmd
+        - text: "---"
+        - text: "Project 1"
+          file: 250_Projects/project1.qmd
+        - text: "---"
+        - text: "Project 2"
+          file: 250_Projects/project2.qmd
+        - text: "---"
+        - text: "Project 3"
+          file: 250_Projects/project3.qmd
+        - text: "---"
+        - text: "Project 4"
+          file: 250_Projects/project4.qmd
+        - text: "---"
+        - text: "Project 5"
+          file: 250_Projects/project5.qmd
+        - text: "---"
+        - text: "Project 6"
+          file: 250_Projects/project6.qmd
+        - text: "---"
+
+format:  
+  html:
+    theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
+      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
+      dark: darkly
+      #light: cosmo
+      #dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    toc: true
+
+
+

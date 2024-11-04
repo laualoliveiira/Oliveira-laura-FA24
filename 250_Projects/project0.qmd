@@ -1,0 +1,194 @@
+---
+title: "Client Report - Introduction"
+subtitle: "Course DS 250"
+author: "[STUDENT NAME]"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+### Introduction
+
+_THIS `.qmd` IS INSTRUCTIONAL AND SHOULD `NOT` BE USED TO WRITE YOUR REPORTS (EXCEPTION - PROJECT 0). THERE IS ANOTHER TEMPLATE FILE FOR THAT. YOU WILL NEED TO `PREVIEW` THE REPORT TO PRODUCE A `.html` FILE. YOU WILL SUBMIT THE `.html` FILE ON CANVAS._
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+from lets_plot import *
+from palmerpenguins import load_penguins
+
+LetsPlot.setup_html(isolated_frame=True)
+```
+
+
+## Elevator pitch
+_A SHORT (2-3 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._ (Note: this is not a summary of the project, but a summary of the results.)
+
+_A Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client._
+
+```{python}
+#| label: project-data
+#| code-summary: Read and format project data
+
+# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
+
+# Include and execute your code here
+penguins = load_penguins()
+```
+
+## Question|Task 1
+
+__COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
+
+- _include figures in chunks and discuss your findings in the figure._
+
+```{python}
+#| label: Q1-chart2
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+
+(
+    ggplot(data=penguins, mapping=aes(x="flipper_length_mm", y="body_mass_g"))
+    + geom_point()
+)
+```
+
+```{python}
+#| label: Q1-chart3
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+
+(
+    ggplot(
+        data=penguins,
+        mapping=aes(x="flipper_length_mm", y="body_mass_g", color="species"),
+    )
+    + geom_point()
+)
+```
+
+```{python}
+#| label: Q1-chart4
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+(
+    ggplot(
+        data=penguins,
+        mapping=aes(x="flipper_length_mm", y="body_mass_g", color="species"),
+    )
+    + geom_point()
+    + geom_smooth(method="lm")
+)
+```
+
+```{python}
+#| label: Q1-chart4.2
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+(
+    ggplot(data=penguins, mapping=aes(x="flipper_length_mm", y="body_mass_g"))
+    + geom_point(mapping=aes(color="species"))
+    + geom_smooth(method="lm")
+)
+```
+
+```{python}
+#| label: Q1-chart5
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+(
+    ggplot(data=penguins, mapping=aes(x="flipper_length_mm", y="body_mass_g"))
+    + geom_point(mapping=aes(color="species", shape="species"))
+    + geom_smooth(method="lm")
+)
+```
+
+```{python}
+#| label: Q1-chart6
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+(
+    ggplot(data=penguins, mapping=aes(x="flipper_length_mm", y="body_mass_g"))
+    + geom_point(aes(color="species", shape="species"))
+    + geom_smooth(method="lm")
+    + labs(
+        title="Body mass and flipper length",
+        subtitle="Dimensions for Adelie, Chinstrap, and Gentoo Penguins",
+        x="Flipper length (mm)",
+        y="Body mass (g)",
+        color="Species",
+        shape="Species",
+    )
+)
+```
+
+## Question|Task 2
+
+__COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
+
+- _PROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE)._
+
+```{python}
+#| label: Q1-table1
+#| code-summary: table example
+#| tbl-cap: "table example"
+#| tbl-cap-location: top
+# Include and execute your code here
+penguins.head()
+
+```
+
+
+```{python}
+#| label: Q1-table2
+#| code-summary: table example
+#| tbl-cap: "table example"
+#| tbl-cap-location: top
+# Include and execute your code here
+mypenguins = (penguins.head(1000)
+    .groupby('species')
+    .mean(numeric_only=True)
+    .reset_index()
+    .filter(["species", "bill_length_mm", "bill_depth_mm", "flipper_length_mm", "body_mass_g"])
+)
+
+display(mypenguins)
+
+```
+
+
+Note: Non executing Python `Snippets` include (3) \`\`\` followed by (3) more \`\`\`, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the \`\`\`  marks. 
+
+Note: These also work in `Slack` and it is expected they are used for any code shared in that app. No screen shots allowed.

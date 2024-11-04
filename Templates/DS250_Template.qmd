@@ -1,0 +1,142 @@
+---
+title: "Client Report - [Insert Project Title]"
+subtitle: "Course DS 250"
+author: "[STUDENT NAME]"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+
+_THIS `.qmd` IS INSTRUCTIONAL AND SHOULD `NOT` BE USED TO WRITE YOUR REPORTS (EXCEPTION - PROJECT 0). THERE IS ANOTHER TEMPLATE FILE FOR THAT. YOU WILL NEED TO `PREVIEW` THE REPORT TO PRODUCE A `.html` FILE. YOU WILL SUBMIT THE `.html` FILE ON CANVAS._
+
+```{python}
+#| label: libraries
+#| include: false
+import pandas as pd
+import numpy as np
+from lets_plot import *
+
+LetsPlot.setup_html(isolated_frame=True, no_js=True)
+```
+
+
+## Elevator pitch
+_A SHORT (2-3 SENTENCES) PARAGRAPH THAT `DESCRIBES KEY INSIGHTS` TAKEN FROM METRICS IN THE PROJECT RESULTS THINK TOP OR MOST IMPORTANT RESULTS._ (Note: this is not a summary of the project, but a summary of the results.)
+
+_A Client has requested this analysis and this is your one shot of what you would say to your boss in a 2 min elevator ride before he takes your report and hands it to the client._
+
+```{python}
+#| label: project-data
+#| code-summary: Read and format project data
+
+# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
+
+# Include and execute your code here
+# Note: using the URL is the easiest way for the data to still work in GitHub
+# You may download the file and reference it by name but only if you save it in the same folder as your .qmd file
+url = 'https://raw.githubusercontent.com/byuidatascience/data4python4ds/master/data-raw/mpg/mpg.csv'
+df = pd.read_csv(url)
+```
+
+__Highlight the Questions and Tasks__
+
+## Question|Task 1
+
+__COPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE__
+
+_Add details here to answer the question but `NOT` like an assignment Q&A. You need to `write your answers as a consulting solution report`. A Client needs to understand the answer, but also needs to understand the decisions that went into the answer (when applicable)._
+
+_include figures in chunks and discuss your findings in the figure._
+
+- _YOU SHOULD HAVE QUALITY WRITING THAT DESCRIBES YOUR CHARTS AND TABLES._
+
+- _WE HIGHLY RECOMMEND [GRAMMARLY](https://grammarly.com/) TO FIX YOUR SPELLING AND GRAMMAR. WRITING TAKES TIME TO BE CLEAR. SPEND THE TIME TO PRACITCE._ 
+
+- _YOU SHOULD HAVE QUALITY COMMENTS THAT DESCRIBES YOUR CODES. OFTEN CODEERS WORK IN TEAMS AND YOU NEED TO HAVE QUALTIY COMMENTS FOR YOUR TEAM AND YOURSELF. YOU MAY NEED TO REVISIT CODE YOU WROTE OVER A YEAR AGO, AND IF YOU DONT COMMENT IT NOW YOU WONT REMEMBER WHY YOU DID WHAT YOU DID._
+
+```{python}
+#| label: Q1
+#| code-summary: Read and format data
+# Include and execute your code here
+
+
+```
+
+## Question|Task 2
+
+__COPY PASTE QUESTION|TASK 2 FROM THE PROJECT HERE__
+
+- _include figures in chunks and discuss your findings in the figure._
+
+```{python}
+#| label: Q1-chart
+#| code-summary: plot example
+#| fig-cap: "My useless chart"
+#| fig-align: center
+# Include and execute your code here
+
+(
+  ggplot(df.head(500), aes(x='displ', y='hwy')) + geom_point()
+)
+```
+
+## Question|Task 3
+
+__COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
+
+- _PROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE)._
+
+```{python}
+#| label: Q1-table
+#| code-summary: table example
+#| tbl-cap: "table example"
+#| tbl-cap-location: top
+# Include and execute your code here
+mydat = (df.head(1000)
+    .groupby('manufacturer')
+    .sum()
+    .reset_index()
+    .tail(10)
+    .filter(["manufacturer","displ","cty", "hwy"])
+)
+
+display(mydat)
+
+```
+
+## Question|Task 4
+
+__COPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE__
+
+- _PROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE)._
+
+```{python}
+#| label: Q4-table
+#| code-summary: table example
+#| tbl-cap: "table example"
+#| tbl-cap-location: top
+# Include and execute your code here
+
+```
+
+Note: Non executing Python `Snippets` include (3) \`\`\` followed by (3) more \`\`\`, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the \`\`\`  marks. 
+
+Note: These also work in `Slack` and it is expected they are used for any code shared in that app. No screen shots allowed.
