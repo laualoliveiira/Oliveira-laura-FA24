@@ -1,89 +1,89 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Laura Oliveira CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Laura Oliveira
+Business Analytics Student, Data Visualization Analyst, and Multilingual Professional.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:oli20004@byui.edu">oli20004@byui.edu</a> |
+<a href="https://www.linkedin.com/laura.oliveira">LinkedIn Profile</a>
 </div>
 
-
 ## Currently
-
-Standing on the shoulders of giants
+Building data-driven solutions and advancing business insights.
 
 ### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
+Data visualization, analytics, and business intelligence.
 
 ### Research interests
+Data analysis, business process optimization, cross-functional collaboration.
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
+---
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`September 2021 - December 2025`  
+__Brigham Young University - Idaho, Rexburg, ID__  
+- Bachelor of Business Analytics  
+- Certificate in Data Science  
+- Scholarship: Reed's Dairy Full Ride Scholarship  
+- Society: Women in Business  
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+---
 
-- Sizar
+## Experience
 
-`1667 - death`
-__Trinity College, Cambridge__
+`January 2024 - Present`  
+__Data Visualization Analyst__  
+**Brigham Young University - Idaho, Rexburg, ID**  
+- Developed interactive Power BI dashboards, enhancing decision-making for 5,000+ students and streamlining administrative processes by 25%.  
+- Analyzed data from 120 databases using SQL, increasing operational efficiency by 12%.  
+- Automated workflows with RAPTOR software, boosting efficiency by 30%.  
+- Created 20+ calculated measures with DAX, advancing visualization impact.
 
-- Fellow
+`April 2022 - January 2024`  
+__Transfer Evaluation Lead Analyst__  
+**Brigham Young University - Idaho, Rexburg, ID**  
+- Led a team of 14 to process 850 transcripts monthly, maintaining a 96% accuracy rate.  
+- Partnered with 10 academic departments to resolve credit transfer discrepancies.  
+- Improved student satisfaction by addressing inquiries promptly.
 
+`March 2020 - January 2022`  
+__Bilingual Program Coordinator__  
+**Piedade School, Recife, Brazil**  
+- Supervised 280 students and 12 CELTA-certified teachers in the Cambridge ESL program.  
+- Improved communication methods, increasing satisfaction by 25%.  
+- Updated 10 program modules to align with educational standards.
 
+---
+
+## Projects
+
+`February 2024 – April 2024`  
+__Student Consultant__  
+**Gibby Group**  
+- Created R Studio and Tableau reports, improving decision-making by 5%.  
+- Designed 7 interactive visualizations, increasing engagement by 30%.  
+- Enhanced accessibility of reports across 4 departments and respective companies.
+
+---
+
+## Skills
+
+- **Data Analysis:** SQL, Power BI, DAX, Excel  
+- **Business Intelligence Tools:** Python, R, Machine Learning Algorithms, Tableau  
+- **Languages:** Spanish (Fluent), Portuguese (Fluent)  
+- **Soft Skills:** Team Collaboration, Analytical Thinking, Problem Solving  
+
+---
 
 ## Awards
+- Reed's Dairy Full Ride Scholarship  
+- Member of Women in Business society  
 
-`2012`
-President, *Royal Society*, London, UK
+---
 
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+<!-- Footer
+Last updated: December 2024
+-->
