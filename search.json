@@ -32,7 +32,7 @@
     "href": "Templates/ds250_project_template_clean.html#questiontask-1",
     "title": "Client Report - [Insert Project Title]",
     "section": "QUESTION|TASK 1",
-    "text": "QUESTION|TASK 1\nCOPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n(\n  ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('year')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"year\", \"AK\",\"AR\"])\n)\ndisplay(mydat)\n\n\n\n\n\n\nNot much of a table {#cell-Q1-table}\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0"
+    "text": "QUESTION|TASK 1\nCOPY PASTE QUESTION|TASK 1 FROM THE PROJECT HERE\ntype your results and analysis here\n\n\nRead and format data\n# Include and execute your code here\n\n\ninclude figures in chunks and discuss your findings in the figure.\n\n\nplot example\n# Include and execute your code here\n(\n  ggplot(df.head(200), aes(x='name', y='AK')) + geom_bar(stat='identity')\n)\n\n\n\n   \n       \n       \n   \n   \n          \n   \n   \n\nMy useless chart\n\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('year')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"year\", \"AK\",\"AR\"])\n)\ndisplay(mydat)\n\n\n\n\n\n\nNot much of a table\n\n\n\nyear\nAK\nAR\n\n\n\n\n96\n2006\n21.0\n183.0\n\n\n97\n2007\n28.0\n153.0\n\n\n98\n2008\n36.0\n212.0\n\n\n99\n2009\n34.0\n179.0\n\n\n100\n2010\n22.0\n196.0\n\n\n101\n2011\n41.0\n148.0\n\n\n102\n2012\n28.0\n140.0\n\n\n103\n2013\n26.0\n134.0\n\n\n104\n2014\n20.0\n114.0\n\n\n105\n2015\n28.0\n121.0"
   },
   {
     "objectID": "Templates/ds250_project_template_clean.html#questiontask-2",
@@ -95,7 +95,7 @@
     "href": "Templates/DS250_Template.html#questiontask-3",
     "title": "Client Report - [Insert Project Title]",
     "section": "Question|Task 3",
-    "text": "Question|Task 3\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('manufacturer')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"manufacturer\",\"displ\",\"cty\", \"hwy\"])\n)\n\ndisplay(mydat)\n\n\n\n\n\n\ntable example {#cell-Q1-table}\n\n\n\nmanufacturer\ndispl\ncty\nhwy\n\n\n\n\n5\nhyundai\n34.0\n261\n376\n\n\n6\njeep\n36.6\n108\n141\n\n\n7\nland rover\n17.2\n46\n66\n\n\n8\nlincoln\n16.2\n34\n51\n\n\n9\nmercury\n17.6\n53\n72\n\n\n10\nnissan\n42.5\n235\n320\n\n\n11\npontiac\n19.8\n85\n132\n\n\n12\nsubaru\n34.4\n270\n358\n\n\n13\ntoyota\n100.4\n630\n847\n\n\n14\nvolkswagen\n60.9\n565\n789"
+    "text": "Question|Task 3\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\nmydat = (df.head(1000)\n    .groupby('manufacturer')\n    .sum()\n    .reset_index()\n    .tail(10)\n    .filter([\"manufacturer\",\"displ\",\"cty\", \"hwy\"])\n)\n\ndisplay(mydat)\n\n\n\n\n\n\ntable example\n\n\n\nmanufacturer\ndispl\ncty\nhwy\n\n\n\n\n5\nhyundai\n34.0\n261\n376\n\n\n6\njeep\n36.6\n108\n141\n\n\n7\nland rover\n17.2\n46\n66\n\n\n8\nlincoln\n16.2\n34\n51\n\n\n9\nmercury\n17.6\n53\n72\n\n\n10\nnissan\n42.5\n235\n320\n\n\n11\npontiac\n19.8\n85\n132\n\n\n12\nsubaru\n34.4\n270\n358\n\n\n13\ntoyota\n100.4\n630\n847\n\n\n14\nvolkswagen\n60.9\n565\n789"
   },
   {
     "objectID": "Templates/DS250_Template.html#questiontask-4",
@@ -169,7 +169,7 @@
     "href": "250_Projects/project0.html#questiontask-2",
     "title": "Client Report - Introduction",
     "section": "Question|Task 2",
-    "text": "Question|Task 2\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\npenguins.head()\n\n\n\n\n\n\ntable example {#cell-Q1-table1}\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n\n\n\n\n\n\n\ntable example\n# Include and execute your code here\nmypenguins = (penguins.head(1000)\n    .groupby('species')\n    .mean(numeric_only=True)\n    .reset_index()\n    .filter([\"species\", \"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\"])\n)\n\ndisplay(mypenguins)\n\n\n\n\n\n\ntable example {#cell-Q1-table2}\n\n\n\nspecies\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\n\n\n\n\n0\nAdelie\n38.791391\n18.346358\n189.953642\n3700.662252\n\n\n1\nChinstrap\n48.833824\n18.420588\n195.823529\n3733.088235\n\n\n2\nGentoo\n47.504878\n14.982114\n217.186992\n5076.016260\n\n\n\n\n\n\n\nNote: Non executing Python Snippets include (3) ``` followed by (3) more ```, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the ``` marks.\nNote: These also work in Slack and it is expected they are used for any code shared in that app. No screen shots allowed.",
+    "text": "Question|Task 2\nCOPY PASTE QUESTION|TASK 3 FROM THE PROJECT HERE\n\nPROVIDE TABLES THAT HELP ADDRESS THE QUESTIONS AND TASKS (IF APPLICABLE).\n\n\n\ntable example\n# Include and execute your code here\npenguins.head()\n\n\n\n\n\n\ntable example\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\nyear\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nmale\n2007\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nfemale\n2007\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nfemale\n2007\n\n\n3\nAdelie\nTorgersen\nNaN\nNaN\nNaN\nNaN\nNaN\n2007\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nfemale\n2007\n\n\n\n\n\n\n\n\n\ntable example\n# Include and execute your code here\nmypenguins = (penguins.head(1000)\n    .groupby('species')\n    .mean(numeric_only=True)\n    .reset_index()\n    .filter([\"species\", \"bill_length_mm\", \"bill_depth_mm\", \"flipper_length_mm\", \"body_mass_g\"])\n)\n\ndisplay(mypenguins)\n\n\n\n\n\n\ntable example\n\n\n\nspecies\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\n\n\n\n\n0\nAdelie\n38.791391\n18.346358\n189.953642\n3700.662252\n\n\n1\nChinstrap\n48.833824\n18.420588\n195.823529\n3733.088235\n\n\n2\nGentoo\n47.504878\n14.982114\n217.186992\n5076.016260\n\n\n\n\n\n\n\nNote: Non executing Python Snippets include (3) ``` followed by (3) more ```, each on their own line. These are not single quotes, they are the key left of the number 1 key on the keyboard. The top row can include the language of code that is pasted inbetween the ``` marks.\nNote: These also work in Slack and it is expected they are used for any code shared in that app. No screen shots allowed.",
     "crumbs": [
       "Project 0"
     ]
@@ -207,44 +207,51 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "title": "Laura Oliveira CV",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "Business Analytics Student, Data Visualization Analyst, and Multilingual Professional.\n\noli20004@byui.edu | LinkedIn Profile\n\n\n\nBuilding data-driven solutions and advancing business insights.\n\n\nData visualization, analytics, and business intelligence.\n\n\n\nData analysis, business process optimization, cross-functional collaboration.\n\n\n\n\n\nSeptember 2021 - December 2025\nBrigham Young University - Idaho, Rexburg, ID\n- Bachelor of Business Analytics\n- Certificate in Data Science\n- Scholarship: Reed’s Dairy Full Ride Scholarship\n- Society: Women in Business\n\n\n\n\nJanuary 2024 - Present\nData Visualization Analyst\nBrigham Young University - Idaho, Rexburg, ID\n- Developed interactive Power BI dashboards, enhancing decision-making for 5,000+ students and streamlining administrative processes by 25%.\n- Analyzed data from 120 databases using SQL, increasing operational efficiency by 12%.\n- Automated workflows with RAPTOR software, boosting efficiency by 30%.\n- Created 20+ calculated measures with DAX, advancing visualization impact.\nApril 2022 - January 2024\nTransfer Evaluation Lead Analyst\nBrigham Young University - Idaho, Rexburg, ID\n- Led a team of 14 to process 850 transcripts monthly, maintaining a 96% accuracy rate.\n- Partnered with 10 academic departments to resolve credit transfer discrepancies.\n- Improved student satisfaction by addressing inquiries promptly.\nMarch 2020 - January 2022\nBilingual Program Coordinator\nPiedade School, Recife, Brazil\n- Supervised 280 students and 12 CELTA-certified teachers in the Cambridge ESL program.\n- Improved communication methods, increasing satisfaction by 25%.\n- Updated 10 program modules to align with educational standards.\n\n\n\n\nFebruary 2024 – April 2024\nStudent Consultant\nGibby Group\n- Created R Studio and Tableau reports, improving decision-making by 5%.\n- Designed 7 interactive visualizations, increasing engagement by 30%.\n- Enhanced accessibility of reports across 4 departments and respective companies.\n\n\n\n\n\nData Analysis: SQL, Power BI, DAX, Excel\n\nBusiness Intelligence Tools: Python, R, Machine Learning Algorithms, Tableau\n\nLanguages: Spanish (Fluent), Portuguese (Fluent)\n\nSoft Skills: Team Collaboration, Analytical Thinking, Problem Solving\n\n\n\n\n\n\nReed’s Dairy Full Ride Scholarship\n\nMember of Women in Business society"
   },
   {
     "objectID": "resume.html#currently",
     "href": "resume.html#currently",
-    "title": "Isaac Newtons’s CV",
+    "title": "Laura Oliveira CV",
     "section": "",
-    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+    "text": "Building data-driven solutions and advancing business insights.\n\n\nData visualization, analytics, and business intelligence.\n\n\n\nData analysis, business process optimization, cross-functional collaboration."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
+    "title": "Laura Oliveira CV",
     "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+    "text": "September 2021 - December 2025\nBrigham Young University - Idaho, Rexburg, ID\n- Bachelor of Business Analytics\n- Certificate in Data Science\n- Scholarship: Reed’s Dairy Full Ride Scholarship\n- Society: Women in Business"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Laura Oliveira CV",
+    "section": "",
+    "text": "January 2024 - Present\nData Visualization Analyst\nBrigham Young University - Idaho, Rexburg, ID\n- Developed interactive Power BI dashboards, enhancing decision-making for 5,000+ students and streamlining administrative processes by 25%.\n- Analyzed data from 120 databases using SQL, increasing operational efficiency by 12%.\n- Automated workflows with RAPTOR software, boosting efficiency by 30%.\n- Created 20+ calculated measures with DAX, advancing visualization impact.\nApril 2022 - January 2024\nTransfer Evaluation Lead Analyst\nBrigham Young University - Idaho, Rexburg, ID\n- Led a team of 14 to process 850 transcripts monthly, maintaining a 96% accuracy rate.\n- Partnered with 10 academic departments to resolve credit transfer discrepancies.\n- Improved student satisfaction by addressing inquiries promptly.\nMarch 2020 - January 2022\nBilingual Program Coordinator\nPiedade School, Recife, Brazil\n- Supervised 280 students and 12 CELTA-certified teachers in the Cambridge ESL program.\n- Improved communication methods, increasing satisfaction by 25%.\n- Updated 10 program modules to align with educational standards."
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Laura Oliveira CV",
+    "section": "",
+    "text": "February 2024 – April 2024\nStudent Consultant\nGibby Group\n- Created R Studio and Tableau reports, improving decision-making by 5%.\n- Designed 7 interactive visualizations, increasing engagement by 30%.\n- Enhanced accessibility of reports across 4 departments and respective companies."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Laura Oliveira CV",
+    "section": "",
+    "text": "Data Analysis: SQL, Power BI, DAX, Excel\n\nBusiness Intelligence Tools: Python, R, Machine Learning Algorithms, Tableau\n\nLanguages: Spanish (Fluent), Portuguese (Fluent)\n\nSoft Skills: Team Collaboration, Analytical Thinking, Problem Solving"
   },
   {
     "objectID": "resume.html#awards",
     "href": "resume.html#awards",
-    "title": "Isaac Newtons’s CV",
+    "title": "Laura Oliveira CV",
     "section": "",
-    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
-  },
-  {
-    "objectID": "resume.html#publications",
-    "href": "resume.html#publications",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
-  },
-  {
-    "objectID": "resume.html#occupation",
-    "href": "resume.html#occupation",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "Reed’s Dairy Full Ride Scholarship\n\nMember of Women in Business society"
   },
   {
     "objectID": "Templates/ds250_coding_challenge_template.html",
